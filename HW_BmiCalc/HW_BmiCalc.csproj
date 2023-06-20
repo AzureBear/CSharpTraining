@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F370257B-2CEF-4A8F-89AF-AA4DB9E6529F}</ProjectGuid>
+    <ProjectGuid>{20DEADD6-B87F-48F9-BC32-274209BF9A03}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KDT14_JHLEE</RootNamespace>
-    <AssemblyName>KDT14_JHLEE</AssemblyName>
+    <RootNamespace>HW_BmiCalc</RootNamespace>
+    <AssemblyName>HW_BmiCalc</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
