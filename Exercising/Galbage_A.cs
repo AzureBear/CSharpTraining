@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercising
 {
@@ -10,8 +6,25 @@ namespace Exercising
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("안녕하세용");
+            Random com = new Random();
+            int comc = com.Next(1, 51);
 
+            Console.WriteLine("start?");
+
+            int usr = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < 3; i++)
+            {
+                if (usr > comc)
+                    Console.WriteLine("you are big");
+                else if (usr < comc)
+                    Console.WriteLine("you are small");
+                else if (usr == comc)
+                {
+                    Console.WriteLine("you correct! asshole");
+                    break;
+                }
+            }
         }
     }
 }

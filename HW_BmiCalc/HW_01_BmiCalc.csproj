@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{20DEADD6-B87F-48F9-BC32-274209BF9A03}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW_BmiCalc</RootNamespace>
-    <AssemblyName>HW_BmiCalc</AssemblyName>
+    <RootNamespace>HW_01_BmiCalc</RootNamespace>
+    <AssemblyName>HW_01_BmiCalc</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
