@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_BmiCalc", "HW_BmiCalc.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercising", "..\Exercising\Exercising.csproj", "{CD60F9EC-D5B5-4C4C-918F-12E677B598BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_BmiCalc_Prototype", "..\TP_BmiCalc_Prototype\TP_BmiCalc_Prototype.csproj", "{F6E91E8F-D87A-482C-9205-76316C1BE8D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CD60F9EC-D5B5-4C4C-918F-12E677B598BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD60F9EC-D5B5-4C4C-918F-12E677B598BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD60F9EC-D5B5-4C4C-918F-12E677B598BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E91E8F-D87A-482C-9205-76316C1BE8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E91E8F-D87A-482C-9205-76316C1BE8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E91E8F-D87A-482C-9205-76316C1BE8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E91E8F-D87A-482C-9205-76316C1BE8D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

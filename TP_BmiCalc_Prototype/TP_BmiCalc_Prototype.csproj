@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD60F9EC-D5B5-4C4C-918F-12E677B598BF}</ProjectGuid>
+    <ProjectGuid>{F6E91E8F-D87A-482C-9205-76316C1BE8D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercising</RootNamespace>
-    <AssemblyName>Exercising</AssemblyName>
+    <RootNamespace>TP_BmiCalc_Prototype</RootNamespace>
+    <AssemblyName>TP_BmiCalc_Prototype</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,7 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Galbage_A.cs" />
+    <Compile Include="Func.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

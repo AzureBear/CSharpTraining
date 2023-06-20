@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Exercising
 {
-    class Program
+    class Galbage_A
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("안녕하세용");
+
         }
     }
 }
