@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F6E91E8F-D87A-482C-9205-76316C1BE8D4}</ProjectGuid>
+    <ProjectGuid>{20DEADD6-B87F-48F9-BC32-274209BF9A03}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TP_BmiCalc_Prototype</RootNamespace>
-    <AssemblyName>TP_BmiCalc_Prototype</AssemblyName>
+    <RootNamespace>Homeworks</RootNamespace>
+    <AssemblyName>Homeworks</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Func.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="HW01_CalcBMI.cs" />
+    <Compile Include="HW02_UpDownGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

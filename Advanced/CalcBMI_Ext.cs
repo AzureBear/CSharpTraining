@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Configuration;
 
-namespace HW_01_BmiCalc
+namespace Advanced
 {
-    /// <summary>
-    /// 2023년 6월 19일 KDT14기 C#과정 1강 숙제로 BMI 측정 프로그램을 만들었습니다.
-    /// 만든사람: 이준호
-    /// </summary>
-    class Program
+    class CalcBMI_Ext
     {
         static void Main(string[] args)
         {

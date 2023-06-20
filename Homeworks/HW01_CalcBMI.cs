@@ -1,9 +1,15 @@
 ﻿using System;
 using System.Configuration;
 
-namespace TP_BmiCalc_Prototype
+namespace Homeworks
 {
-    class Program
+    /// <summary>
+    /// 2023년 6월 19일 (월)
+    /// KDT14 C# 프로그래밍 1강 숙제
+    /// BMI지수 계산기
+    /// 만든사람: 이준호
+    /// </summary>
+    class HW01_CalcBMI
     {
         static void Main(string[] args)
         {

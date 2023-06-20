@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B967FBFB-F4D4-45B8-A265-CE9ADDD7A711}</ProjectGuid>
+    <ProjectGuid>{CD5B0B21-63AB-496B-978D-61360455E2E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW_02_UpDownGame</RootNamespace>
-    <AssemblyName>HW_02_UpDownGame</AssemblyName>
+    <RootNamespace>GPT_Samples</RootNamespace>
+    <AssemblyName>GPT_Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BMICalculator_GPT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpDownGame_GPT.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
