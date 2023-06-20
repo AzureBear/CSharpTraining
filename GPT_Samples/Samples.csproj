@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CD5B0B21-63AB-496B-978D-61360455E2E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GPT_Samples</RootNamespace>
-    <AssemblyName>GPT_Samples</AssemblyName>
+    <RootNamespace>Samples</RootNamespace>
+    <AssemblyName>Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

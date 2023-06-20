@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GPT_Samples
+namespace Samples
 {
     class UpDownGame_GPT
     {

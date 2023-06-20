@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercising
+namespace Advanced
 {
     class Galbage_A
     {

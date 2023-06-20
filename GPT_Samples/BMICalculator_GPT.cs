@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercise
+namespace Samples
 {
     class BMICalculator_GPT
     {
