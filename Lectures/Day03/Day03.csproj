@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD60F9EC-D5B5-4C4C-918F-12E677B598BF}</ProjectGuid>
+    <ProjectGuid>{01E6C84C-8B97-46B9-8CE9-858F8D15A8F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercising</RootNamespace>
-    <AssemblyName>Exercising</AssemblyName>
+    <RootNamespace>Day03</RootNamespace>
+    <AssemblyName>Day03</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercising.Test_Bravo</StartupObject>
+    <StartupObject>Day03.Array2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,16 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UpDownGame.cs" />
-    <Compile Include="Galbage_A.cs" />
-    <Compile Include="Galbage_B.cs" />
+    <Compile Include="Array1.cs" />
+    <Compile Include="Array2.cs" />
+    <Compile Include="Array3.cs" />
+    <Compile Include="AvgEx1.cs" />
+    <Compile Include="ConditionEx1.cs" />
+    <Compile Include="ConditionEx2.cs" />
+    <Compile Include="EqualTest.cs" />
+    <Compile Include="ForEx1.cs" />
+    <Compile Include="ForEx2.cs" />
+    <Compile Include="GameEx1.cs" />
+    <Compile Include="Gugudan.cs" />
+    <Compile Include="PlusEx1.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test_Alpha.cs" />
-    <Compile Include="Test_Bravo.cs" />
+    <Compile Include="Updown2.cs" />
+    <Compile Include="Updown.cs" />
+    <Compile Include="WhileEx2.cs" />
+    <Compile Include="WhileEx1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

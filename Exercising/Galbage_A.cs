@@ -2,7 +2,7 @@
 
 namespace Exercising
 {
-    class Galbage_A
+    class 업다운게임
     {
         static void Main(string[] args)
         {

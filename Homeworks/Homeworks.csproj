@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="HW01_CalcBMI.cs" />
     <Compile Include="HW02_UpDownGame.cs" />
+    <Compile Include="HW03_Lottery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
