@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Configuration;
+using System.Threading;
 
 namespace Advanced
 {
@@ -12,9 +13,9 @@ namespace Advanced
             string s2 = ConfigurationManager.AppSettings["info2"];
 
             //인사말을 출력합니다.
-            Console.WriteLine("Hello World!");
+            WriteLineA("Hello World!");
             Console.ReadLine();
-            Console.WriteLine("Welcome to Junho's BMI Calculating C# Program.");
+            WriteLineA("Welcome to Junho's BMI Calculating C# Program.");
             Console.ReadLine();
 
         confirm:
@@ -45,6 +46,18 @@ namespace Advanced
             {
                 Console.WriteLine("\nInvalid input. Please press 'Y' or 'N'.");
                 goto start;
+            }
+        }
+
+        static void WriteLineA(string text, TimeSpan delay = default(TimeSpan))
+        {
+            if (delay == default(TimeSpan))
+                delay = TimeSpan.FromSeconds(0.05);
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                Console.Write(text[i]);
+                Thread.Sleep(delay);
             }
         }
     }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F15C9B50-F96F-4493-A3A0-4557D4EA3028}</ProjectGuid>
+    <ProjectGuid>{2D5A8DD0-A85C-4E19-A2D1-B3ECAFADF8DA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Advanced</RootNamespace>
-    <AssemblyName>Advanced</AssemblyName>
+    <RootNamespace>Day04</RootNamespace>
+    <AssemblyName>Day04</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,11 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Advanced.CalcBMI_Ext</StartupObject>
+    <StartupObject>Day04.CallByOut2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,9 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalcBMI_Ext.cs" />
-    <Compile Include="Galbage_A.cs" />
+    <Compile Include="CallByOut.cs" />
+    <Compile Include="CallByOut2.cs" />
+    <Compile Include="CallByReference.cs" />
+    <Compile Include="CallByValue.cs" />
+    <Compile Include="Dictionary1.cs" />
+    <Compile Include="List1.cs" />
+    <Compile Include="List2.cs" />
+    <Compile Include="lotto2.cs" />
+    <Compile Include="Array1.cs" />
+    <Compile Include="Method1.cs" />
+    <Compile Include="Method2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetLotto.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

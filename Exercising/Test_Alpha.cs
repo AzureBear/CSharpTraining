@@ -43,3 +43,25 @@ static void Main(string[] args)
     }
     Console.WriteLine(tot);
 }
+
+static void Main(string[] args)
+{
+    bool bFlag = false;
+    int age = 0;
+
+    while (!bFlag)
+    {
+        Console.Write("숫자입력:");
+        bFlag = int.TryParse(Console.ReadLine(), out age);
+        if (!bFlag)
+        {
+            Console.WriteLine("숫자를 입력하세요.");
+        }
+    }
+
+    Console.WriteLine($"나이는 {age}입니다.");
+}
+
+
+*/
+
