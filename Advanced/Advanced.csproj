@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="CalcBMI_Ext.cs" />
     <Compile Include="Galbage_A.cs" />
+    <Compile Include="MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
