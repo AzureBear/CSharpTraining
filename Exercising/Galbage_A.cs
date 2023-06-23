@@ -2,7 +2,7 @@
 
 namespace Exercising
 {
-    class 업다운게임
+    class Advanced
     {
         static void Main(string[] args)
         {

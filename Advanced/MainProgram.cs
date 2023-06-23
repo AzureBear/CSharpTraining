@@ -10,24 +10,9 @@ namespace Advanced
     {
         static void Main(string[] args)
         {
-            string pwd = "wasd";
 
-            for (int i = 0; i < 5; i++)
-            {
-                Console.Write("Enter an access code: ");
-                if (pwd == Console.ReadLine())
-                {
-                    Console.WriteLine("Access granted. Starting the program...");
-                    MainSelections(); // 진짜 프로그램 실행
-                    return; // 프로그램 종료
-                }
-                else
-                {
-                    Console.WriteLine("Invalid code. Try again.\n");
-                }
-            }
+            Protector.Login();
 
-            Console.WriteLine("Access denied. Too many incorrect attempts. Exiting the program...");
         }
 
         static void MainSelections()

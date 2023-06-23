@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F15C9B50-F96F-4493-A3A0-4557D4EA3028}</ProjectGuid>
+    <ProjectGuid>{EB6E8A99-DA77-4B4C-9FAE-9B444FC39DAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Advanced</RootNamespace>
-    <AssemblyName>Advanced</AssemblyName>
+    <RootNamespace>Day05</RootNamespace>
+    <AssemblyName>Day05</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,11 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Advanced.MainProgram</StartupObject>
+    <StartupObject>Day05.PersonTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,14 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuGen.cs" />
-    <Compile Include="Protector.cs" />
-    <Compile Include="SelectLogic.cs" />
-    <Compile Include="MainProgram.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Reference_Copy.cs" />
+    <Compile Include="MyRectangle.cs" />
+    <Compile Include="Program_Class2.cs" />
+    <Compile Include="Program_Class.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpDownTest.cs" />
+    <Compile Include="UpDownGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{166ddf83-f246-4cee-8df7-eb25b98deeaf}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
