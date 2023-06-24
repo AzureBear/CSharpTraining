@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeworks", "Homeworks\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{CD5B0B21-63AB-496B-978D-61360455E2E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurkConsole", "AzurkConsole\AzurkConsole.csproj", "{AE5F5697-BCDC-4450-A973-7F5FB16E82BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CD5B0B21-63AB-496B-978D-61360455E2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD5B0B21-63AB-496B-978D-61360455E2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD5B0B21-63AB-496B-978D-61360455E2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5F5697-BCDC-4450-A973-7F5FB16E82BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5F5697-BCDC-4450-A973-7F5FB16E82BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5F5697-BCDC-4450-A973-7F5FB16E82BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5F5697-BCDC-4450-A973-7F5FB16E82BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
