@@ -59,8 +59,4 @@ namespace AzurkConsole
         }
     }
 
-    class SubMenu : Menu
-    {
-        
-    }
 }

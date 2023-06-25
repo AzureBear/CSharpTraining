@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercising.Test_Bravo</StartupObject>
+    <StartupObject>Exercising.TestClass01</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UpDownGame.cs" />
-    <Compile Include="Galbage_A.cs" />
-    <Compile Include="Galbage_B.cs" />
+    <Compile Include="Calclib.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test_Alpha.cs" />
-    <Compile Include="Test_Bravo.cs" />
+    <Compile Include="TestClass01.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
