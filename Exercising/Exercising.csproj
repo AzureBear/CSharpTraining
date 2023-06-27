@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercising.TestClass01</StartupObject>
+    <StartupObject>Exercising.ExerciseB</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Calclib.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="ExerciseB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestClass01.cs" />
   </ItemGroup>
