@@ -28,9 +28,9 @@ namespace Exercising
             List<Product> list = new List<Product>()
             {
                 new Product() { Name = "고구마", Price = 1500 },
-                new Product(){Name = "감자",Price = 2400 },
-                new Product(){Name = "부추",Price = 1000 },
-                new Product(){Name = "귤", Price = 3000}
+                new Product() { Name = "감자", Price = 2400 },
+                new Product() { Name = "부추", Price = 1000 },
+                new Product() { Name = "귤", Price = 3000 }
             };
             list.Sort();
 
