@@ -40,5 +40,26 @@ namespace WindowsFormsApp1
                 textBox1.Text += temp.Text;
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("눌렀네");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Button btn = new Button();
+            btn.Size = new Size(300, 200);
+            btn.Location = new Point(10, 10);
+            btn.Text = "MyButton";
+            btn.Click += ((s, bb) => MessageBox.Show("되게 간단하네"));
+
+            this.Controls.Add(btn);
+        }
+
+        //private void Btn_Click(object sender, EventArgs e)
+        //{
+        //    MessageBox.Show("우와 크다");
+        //}
     }
 }
